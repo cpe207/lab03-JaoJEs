@@ -1,0 +1,98 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+head{ 
+    background-color: aquamarine;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    border: 10px;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(176, 231, 247);
+}
+.content {
+    display: inline-block;
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.nav a {
+    margin: 0 10px;
+}
+
+
+frame {
+    font-size: 25px;
+    background-color: #fce4ec; /* สีพาสเทลชมพู */
+    padding: 20px;
+    border-radius: 10px; /* มุมโค้งมน */
+    display: inline-block;
+    border: 2px solid #f8bbd0; /* กรอบสีชมพูอ่อน */
+    text-align: left;
+    margin: 0 auto; /* จัดกึ่งกลาง */
+}
+.box1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:  2px solid;
+    margin-top: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: hsl(186, 97%, 76%);
+  }
+
+  .box2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid;
+    margin-top: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(174, 209, 239);
+  }
+
+  .box3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid;
+    margin-top: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(158, 208, 251);
+  }
+  .box4 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: blue solid;
+    margin-top: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(129, 191, 245);
+  }
